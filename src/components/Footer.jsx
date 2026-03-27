@@ -10,8 +10,11 @@ const Footer = () => {
           <aside>
             <div className="flex items-center gap-2">
               <img className="w-8 h-8 md:w-12 md:h-12" src={logo} alt="" />
-              <NavLink to="/" className="text-sm cursor-pointer hover:text-[#733BE7] font-medium md:text-xl">
-                HERO.IO
+              <NavLink
+                to="/"
+                className="text-sm cursor-pointer hover:text-[#733BE7] font-medium md:text-xl"
+              >
+                AppLoom
               </NavLink>
             </div>
 

@@ -72,7 +72,7 @@ const Navber = () => {
               to="/"
               className="text-sm cursor-pointer hover:text-[#733BE7] font-medium md:text-xl"
             >
-              HERO.IO
+             AppLoom
             </NavLink>
           </div>
         </div>
