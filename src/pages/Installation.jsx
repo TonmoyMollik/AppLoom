@@ -14,7 +14,8 @@ const Installation = () => {
     const convertStoreApp = storeAppData.map((id) => parseInt(id));
     const myInstollApp = data.filter((app) => convertStoreApp.includes(app.id));
     setDownload(myInstollApp);
-  }, []);
+    
+  }, [data]);
   return (
     <div className="bg-[#F5F5F5]">
       <div className="lg:max-w-11/12 mx-auto px-4 lg:px-0">

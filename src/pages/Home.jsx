@@ -3,12 +3,11 @@ import appStoreLogo from "../assets/images/appstore.png";
 import playStoreLogo from "../assets/images/playstore.png";
 import heroImg from "../assets/images/hero.png";
 import TrendingApp from "../components/TrendingApp";
-import Loading from "../components/Looading";
+import Loading from "../components/Loading";
 import { NavLink } from "react-router";
 
 const Home = () => {
   const appData = fetch("trendingApp.json").then((res) => res.json());
-
   return (
     <section className="bg-[#F5F5F5]">
       <div className="px-4 lg:px-0">

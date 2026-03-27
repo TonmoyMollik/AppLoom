@@ -10,9 +10,7 @@ const AppDetails = () => {
   const { id } = useParams();
 
   const data = useLoaderData();
-
   const singleApp = data.find((data) => data.id == id);
-  console.log(singleApp);
   const {
     image,
     title,

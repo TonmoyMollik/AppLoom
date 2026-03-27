@@ -51,9 +51,11 @@ const AllAppFound = ({ appData }) => {
           ))}
         </div>
       ) : (
-        <div className="text-center py-20 bg-white rounded-2xl shadow-sm">
+        <div className="text-center py-20 bg-white rounded-2xl shadow-sm border border-dashed border-gray-300">
           <h3 className="text-2xl font-bold text-gray-400">No App Found!</h3>
-          <p className="text-gray-500">Try searching with a different name.</p>
+          <p className="text-gray-500">
+            We couldn't find any app matching "{searchTerm}"
+          </p>
         </div>
       )}
     </div>

@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import Loading from "../components/Looading";
+import Loading from "../components/Loading";
 import AllAppFound from "../components/AllAppFound";
 
 const App = () => {
