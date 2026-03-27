@@ -1,0 +1,146 @@
+[
+  {
+    "image": "/images/demo-app (1).webp",
+    "title": "ChatFlow",
+    "companyName": "NextGen Tech",
+    "id": 1,
+    "description": "Fast and secure messaging app with real-time chat and media sharing.",
+    "size": 45,
+    "reviews": "12.4K",
+    "ratingAvg": 4.5,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": "1.1K" },
+      { "name": "2 star", "count": "900" },
+      { "name": "3 star", "count": "2.3K" },
+      { "name": "4 star", "count": "3.5K" },
+      { "name": "5 star", "count": "4.6K" }
+    ]
+  },
+  {
+    "image": "/images/demo-app (2).webp",
+    "title": "MoneyMate",
+    "companyName": "Finova Ltd",
+    "id": 2,
+    "description": "Track expenses, manage savings and control your finances easily.",
+    "size": 38,
+    "reviews": "8.7K",
+    "ratingAvg": 4.3,
+    "downloads": "850K",
+    "ratings": [
+      { "name": "1 star", "count": "700" },
+      { "name": "2 star", "count": "600" },
+      { "name": "3 star", "count": "1.8K" },
+      { "name": "4 star", "count": "2.9K" },
+      { "name": "5 star", "count": "2.7K" }
+    ]
+  },
+  {
+    "image": "/images/demo-app (3).webp",
+    "title": "FitTrack",
+    "companyName": "Healthify Corp",
+    "id": 3,
+    "description": "Monitor workouts, calories and daily health stats in one place.",
+    "size": 52,
+    "reviews": "15.6K",
+    "ratingAvg": 4.7,
+    "downloads": "2.4M",
+    "ratings": [
+      { "name": "1 star", "count": "800" },
+      { "name": "2 star", "count": "500" },
+      { "name": "3 star", "count": "2.1K" },
+      { "name": "4 star", "count": "4.2K" },
+      { "name": "5 star", "count": "8K" }
+    ]
+  },
+  {
+    "image": "/images/demo-app (4).webp",
+    "title": "BeatBox",
+    "companyName": "SoundWave Inc",
+    "id": 4,
+    "description": "Stream unlimited music and create your own playlists.",
+    "size": 60,
+    "reviews": "22.3K",
+    "ratingAvg": 4.6,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": "1.2K" },
+      { "name": "2 star", "count": "1K" },
+      { "name": "3 star", "count": "3.5K" },
+      { "name": "4 star", "count": "6.1K" },
+      { "name": "5 star", "count": "10.5K" }
+    ]
+  },
+  {
+    "image": "/images/demo-app (5).webp",
+    "title": "ShopNest",
+    "companyName": "Ecom Hub",
+    "id": 5,
+    "description": "Discover trending products and shop securely online.",
+    "size": 48,
+    "reviews": "10.2K",
+    "ratingAvg": 4.4,
+    "downloads": "1.6M",
+    "ratings": [
+      { "name": "1 star", "count": "900" },
+      { "name": "2 star", "count": "700" },
+      { "name": "3 star", "count": "2.4K" },
+      { "name": "4 star", "count": "3.1K" },
+      { "name": "5 star", "count": "3.1K" }
+    ]
+  },
+  {
+    "image": "/images/demo-app (6).webp",
+    "title": "LearnUp",
+    "companyName": "EduSmart",
+    "id": 6,
+    "description": "Interactive online courses to boost your skills.",
+    "size": 72,
+    "reviews": "18.9K",
+    "ratingAvg": 4.8,
+    "downloads": "4.1M",
+    "ratings": [
+      { "name": "1 star", "count": "600" },
+      { "name": "2 star", "count": "400" },
+      { "name": "3 star", "count": "1.9K" },
+      { "name": "4 star", "count": "5K" },
+      { "name": "5 star", "count": "11K" }
+    ]
+  },
+  {
+    "image": "/images/demo-app (1).webp",
+    "title": "TripGo",
+    "companyName": "Voyage Ltd",
+    "id": 7,
+    "description": "Plan trips, book hotels and explore destinations worldwide.",
+    "size": 55,
+    "reviews": "9.4K",
+    "ratingAvg": 4.2,
+    "downloads": "920K",
+    "ratings": [
+      { "name": "1 star", "count": "1K" },
+      { "name": "2 star", "count": "800" },
+      { "name": "3 star", "count": "2.2K" },
+      { "name": "4 star", "count": "2.6K" },
+      { "name": "5 star", "count": "2.8K" }
+    ]
+  },
+  {
+    "image": "/images/demo-app (2).webp",
+    "title": "BattleZone",
+    "companyName": "PixelPlay Studio",
+    "id": 8,
+    "description": "Action-packed multiplayer battle game with stunning graphics.",
+    "size": 120,
+    "reviews": "30.5K",
+    "ratingAvg": 4.6,
+    "downloads": "5.7M",
+    "ratings": [
+      { "name": "1 star", "count": "2K" },
+      { "name": "2 star", "count": "1.5K" },
+      { "name": "3 star", "count": "4.5K" },
+      { "name": "4 star", "count": "8K" },
+      { "name": "5 star", "count": "14.5K" }
+    ]
+  }
+]
