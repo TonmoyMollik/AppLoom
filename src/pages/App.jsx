@@ -1,13 +1,12 @@
 import React, { Suspense } from "react";
 import Loading from "../components/Looading";
-import AllApp from "../components/AllApp";
 import AllAppFound from "../components/AllAppFound";
 
 const App = () => {
   const appData = fetch("allApp.json").then((res) => res.json());
   return (
     <div className="bg-[#F5F5F5]">
-      <div className="lg:max-w-11/12 mx-auto ">
+      <div className="lg:max-w-11/12 mx-auto px-4 lg:px-0">
         <div className="text-center pt-14 pb-10 space-y-2">
           <h4 className="text-4xl font-bold">Our All Applications</h4>
           <p className="text-xl text-[#627382]">
@@ -18,7 +17,6 @@ const App = () => {
         <div className="bg-[#F5F5F5]">
           <Suspense fallback={<Loading></Loading>}>
             <AllAppFound appData={appData}></AllAppFound>
-            <AllApp appData={appData}></AllApp>
           </Suspense>
         </div>
       </div>

@@ -17,7 +17,7 @@ const Installation = () => {
   }, []);
   return (
     <div className="bg-[#F5F5F5]">
-      <div className="lg:max-w-11/12 mx-auto">
+      <div className="lg:max-w-11/12 mx-auto px-4 lg:px-0">
         <InstallationOption download={download}></InstallationOption>
         {download.map((data) => (
           <InstolledApp data={data} key={data.id}></InstolledApp>

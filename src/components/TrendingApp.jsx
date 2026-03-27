@@ -3,7 +3,6 @@ import Card from "./Card";
 
 const TrendingApp = ({ appData }) => {
   const apidata = use(appData);
-  
 
   return (
     <div className="lg:max-w-11/12 mx-auto ">

@@ -80,7 +80,12 @@ const Navber = () => {
           <ul className=" font-medium flex gap-8">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a href="" className="btn font-normal  md:font-medium bg-[#763FE8]">
+          <a
+            href="https://github.com/TonmoyMollik/AppLoom"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn font-normal  md:font-medium bg-[#763FE8]"
+          >
             <img src={githubLogo} alt="" />
             Contribute
           </a>

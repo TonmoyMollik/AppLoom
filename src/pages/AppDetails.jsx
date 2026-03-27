@@ -3,8 +3,10 @@ import dawnload from "../assets/images/icon-downloads.png";
 import star from "../assets/images/icon-ratings.png";
 import reviw from "../assets/images/icon-review.png";
 import { addToStoreDb } from "../Utility/AddToDb";
+import { useState } from "react";
 
 const AppDetails = () => {
+  const [instollData, setInstollData] = useState("Install Now (291 MB)");
   const { id } = useParams();
 
   const data = useLoaderData();
@@ -23,6 +25,7 @@ const AppDetails = () => {
 
   const handelDawnload = (id) => {
     addToStoreDb(id);
+    setInstollData("Installed");
   };
 
   return (
@@ -63,7 +66,7 @@ const AppDetails = () => {
                 onClick={() => handelDawnload(id)}
                 className="bg-[#00D390] inline-block text-center py-2 px-3 btn"
               >
-                Install Now (291 MB)
+                {instollData}
               </p>
             </div>
           </div>

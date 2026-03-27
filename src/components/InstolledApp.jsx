@@ -3,7 +3,7 @@ import ratingImg from "../assets/images/icon-ratings.png";
 
 const InstolledApp = ({ data }) => {
   return (
-    <div className="flex gap-1 ">
+    <div className="flex gap-1 py-2">
       <div className="">
         <img className="w-20 md:w-30 rounded-2xl p-2" src={data.image} alt="" />
       </div>
